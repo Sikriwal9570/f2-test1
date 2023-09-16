@@ -27,12 +27,12 @@ let arr = [
   if (userResponse.toLowerCase() === 'yes') {
     recursiveAddData();
   }
-    //Write your code here, just console.log
+    
   }
   
   // 3. Remove the youngest and oldest person from the array.
   function removeYoungestAndOldest() {
-    //Write your code here, just console.log
+   
     const sortedArray = [...arr].sort((a, b) => a.age - b.age);
   const youngest = sortedArray[0];
   const oldest = sortedArray[sortedArray.length - 1];
